@@ -1,8 +1,7 @@
----
 galaxy_info:
-  role_name: azure_cli
+  role_name: ansible-install-packer
   author: azurecitadel
-  description: This role installs the Microsoft Azure CLI for Linux.
+  description: This role installs the Packer binary for Ubuntu.
   company: "None"
   license: "MIT"
   min_ansible_version: 2.4
@@ -13,10 +12,8 @@ galaxy_info:
       - bionic
       - focal
   galaxy_tags:
-    - cloud
-    - microsoft
-    - azure
-    - cli
+    - hashicorp
+    - packer
 
 dependencies: []
 
